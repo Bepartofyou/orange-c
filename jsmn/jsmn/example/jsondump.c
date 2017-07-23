@@ -7,6 +7,10 @@
 #include <errno.h>
 #include "../jsmn.h"
 
+#ifndef inline
+#define inline __inline
+#endif
+
 /* Function realloc_it() is a wrapper function for standart realloc()
  * with one difference - it frees old memory pointer in case of realloc
  * failure. Thus, DO NOT use old data pointer in anyway after call to
