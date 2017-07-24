@@ -12,3 +12,7 @@
   
         mkdir build && cd build && cmake ../ && make
   
+* windows
+  * cmake
+  
+        mkdir build && cd build && cmake ../ && make
