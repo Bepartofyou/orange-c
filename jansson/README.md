@@ -4,4 +4,4 @@
 * https://github.com/akheron/jansson
 
 ## build jansson
-* mkdir build && cd build && cmake ../ && make
+* cd ./jansson && mkdir build && cd build && cmake ../ && make
