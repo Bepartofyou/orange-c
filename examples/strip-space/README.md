@@ -3,5 +3,5 @@
   Modifies str so that all trailing whitespace characters are replaced by '\0'.
 
 ## build
-	mkdir build && cd build && cmake ../ && make
-	./test
+* mkdir build && cd build && cmake ../ && make
+* ./test
