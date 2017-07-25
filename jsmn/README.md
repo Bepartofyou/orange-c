@@ -3,7 +3,7 @@
 ## jsmn url
 * https://github.com/zserge/jsmn
 
-## build jsmn in this dir
+## build jsmn
 * linux
   * make
   
