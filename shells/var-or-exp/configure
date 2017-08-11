@@ -1,0 +1,28 @@
+#!/bin/sh
+
+value1=$0
+value2=$1
+value3=
+
+#option var
+echo "==== option show ====="
+
+count=0
+
+for option
+do
+	echo "$option"
+	count=$[count+1]
+
+done
+echo "options number: $count"
+echo " "
+echo " "
+echo " "
+
+# :- expression
+echo "==== :- expression test ===="
+
+echo "${value1:-"default"}"
+echo "${value2:-"default"}"
+echo "${value3:-"default"}"
