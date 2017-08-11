@@ -4,6 +4,9 @@ value1=$0
 value2=$1
 value3=
 
+. ./introduction
+echo "$INTRODUCTION"
+
 #option var
 echo "==== option show ====="
 
