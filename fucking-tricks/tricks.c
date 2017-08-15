@@ -2,6 +2,14 @@
 #include <stdlib.h>
 #include <inttypes.h>
 
+/*
+ * strcut `type` 's member `field` offset from  head address of the struct
+ *
+ */
+#ifndef offsetof
+#define offsetof(type, field) (size_t)(&(((type *)0)->field))
+#endif
+
 
 /*
  *Get the bit value of the `n` bit frome pointer `p`
